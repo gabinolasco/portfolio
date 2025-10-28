@@ -25,7 +25,6 @@
             padding: 20px;
         }
 
-        /* Header */
         header {
             text-align: center;
             padding: 50px 30px;
@@ -75,6 +74,21 @@
             margin: 0;
         }
 
+        .conheca-mais {
+            display: inline-block;
+            margin-top: 8px;
+            color: #8B7355;
+            text-decoration: none;
+            font-size: 0.9em;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            border-bottom: 1px solid transparent;
+        }
+
+        .conheca-mais:hover {
+            border-bottom: 1px solid #8B7355;
+        }
+
         .bio {
             margin: 25px auto;
             font-size: 1.05em;
@@ -95,7 +109,6 @@
             margin-top: 10px;
         }
 
-        /* Contact Buttons */
         .contact-buttons {
             display: flex;
             gap: 15px;
@@ -131,12 +144,10 @@
             box-shadow: 0 10px 25px rgba(0,0,0,0.2);
         }
 
-        /* Feed Section */
         .feed-section {
             margin-bottom: 30px;
         }
 
-        /* Post Card */
         .post-card {
             background: rgba(255, 255, 255, 0.98);
             border-radius: 20px;
@@ -178,7 +189,6 @@
             background: white;
         }
 
-        /* Footer */
         footer {
             text-align: center;
             padding: 30px;
@@ -188,7 +198,6 @@
             margin-top: 30px;
         }
 
-        /* Responsive */
         @media (max-width: 768px) {
             .container {
                 padding: 15px;
@@ -221,13 +230,13 @@
 </head>
 <body>
     <div class="container">
-        <!-- Header -->
         <header>
             <div class="header-top">
                 <img src="https://i.imgur.com/QyQyik8.jpeg" alt="Gabrielle Nolasco" class="profile-photo">
                 <div class="name-container">
                     <h1>Gabrielle Nolasco</h1>
                     <p class="subtitle">Social Media</p>
+                    <a href="https://gabinolasco.netlify.app/index.html" class="conheca-mais">Conheça Mais →</a>
                 </div>
             </div>
             
@@ -251,9 +260,7 @@
             </div>
         </header>
 
-        <!-- Feed -->
         <section class="feed-section">
-            <!-- Post 1 -->
             <article class="post-card">
                 <div class="post-header">
                     <p class="post-category">Branding & Identidade Visual</p>
@@ -262,7 +269,6 @@
                 <img src="https://i.imgur.com/2IJ6SgC.jpeg" alt="Post 1" class="post-image">
             </article>
 
-            <!-- Post 2 -->
             <article class="post-card">
                 <div class="post-header">
                     <p class="post-category">Crescimento & Engajamento</p>
@@ -271,7 +277,6 @@
                 <img src="https://i.imgur.com/zXf7sjw.jpeg" alt="Post 2" class="post-image">
             </article>
 
-            <!-- Post 3 -->
             <article class="post-card">
                 <div class="post-header">
                     <p class="post-category">Conteúdo Educativo</p>
@@ -280,7 +285,6 @@
                 <img src="https://i.imgur.com/SCrIWYI.jpeg" alt="Post 3" class="post-image">
             </article>
 
-            <!-- Post 4 -->
             <article class="post-card">
                 <div class="post-header">
                     <p class="post-category">Posicionamento Digital</p>
@@ -289,7 +293,6 @@
                 <img src="https://i.imgur.com/p3V71of.jpeg" alt="Post 4" class="post-image">
             </article>
 
-            <!-- Post 5 -->
             <article class="post-card">
                 <div class="post-header">
                     <p class="post-category">Design & Criatividade</p>
@@ -298,7 +301,6 @@
                 <img src="https://i.imgur.com/78qqAle.jpeg" alt="Post 5" class="post-image">
             </article>
 
-            <!-- Post 6 -->
             <article class="post-card">
                 <div class="post-header">
                     <p class="post-category">Estratégia de Redes</p>
@@ -307,7 +309,6 @@
                 <img src="https://i.imgur.com/0g3UB9w.jpeg" alt="Post 6" class="post-image">
             </article>
 
-            <!-- Post 7 -->
             <article class="post-card">
                 <div class="post-header">
                     <p class="post-category">Copywriting Persuasivo</p>
@@ -316,7 +317,6 @@
                 <img src="https://i.imgur.com/L0Z9hsD.jpeg" alt="Post 7" class="post-image">
             </article>
 
-            <!-- Post 8 -->
             <article class="post-card">
                 <div class="post-header">
                     <p class="post-category">Planejamento de Conteúdo</p>
@@ -325,7 +325,6 @@
                 <img src="https://i.imgur.com/PMxstTr.jpeg" alt="Post 8" class="post-image">
             </article>
 
-            <!-- Post 9 -->
             <article class="post-card">
                 <div class="post-header">
                     <p class="post-category">Engajamento Orgânico</p>
@@ -334,7 +333,6 @@
                 <img src="https://i.imgur.com/OjRHQZZ.jpeg" alt="Post 9" class="post-image">
             </article>
 
-            <!-- Post 10 -->
             <article class="post-card">
                 <div class="post-header">
                     <p class="post-category">Resultados Comprovados</p>
@@ -344,7 +342,6 @@
             </article>
         </section>
 
-        <!-- Footer -->
         <footer>
             <p>&copy; 2025 Gabrielle Nolasco - Social Media | Todos os direitos reservados</p>
         </footer>
